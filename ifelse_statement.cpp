@@ -18,5 +18,5 @@ int main()
 {
     cout<<"odd number"<<endl;
 }
-}
+};
 
