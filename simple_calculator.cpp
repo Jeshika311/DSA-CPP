@@ -6,6 +6,9 @@ int main()
     int number1;
     int number2;
     int Addition;
+    int Subtraction;
+    int Multiply;
+    int Divide;
     
     
     cout<<"Basic Calculations"<<endl;
@@ -27,8 +30,32 @@ int main()
         Addition = number1 + number2;
         cout<<"Answer ="<<Addition<<endl;
     }
+    else if(option==2){
+        cout<<"Enter 1st number :-"<<endl;
+        cin>>number1;
+        cout<<"Enter 2nd number :-"<<endl;
+        cin>>number2;
+        Subtraction = number1 - number2;
+        cout<<"Answer ="<<Subtraction<<endl;
+    }
+    else if(option==3){
+        cout<<"Enter 1st number :-"<<endl;
+        cin>>number1;
+        cout<<"Enter 2nd number :-"<<endl;
+        cin>>number2;
+        Multiply = number1*number2;
+        cout<<"Answer ="<<Multiply<<endl;
+    }
+    else if(option==4){
+        cout<<"Enter 1st number :-"<<endl;
+        cin>>number1;
+        cout<<"Enter 2nd number :-"<<endl;
+        cin>>number2;
+        Divide = number1/number2;
+        cout<<"Answer ="<<Divide<<endl;
+    }
     else{
-        cout<<"invalid"<<endl;
+        cout<<"Invalid input"<<endl;
     }
 
 }
