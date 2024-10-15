@@ -20,7 +20,7 @@ int main(){
     cin>>sub5;
 
     float percentage = (sub1+sub2+sub3+sub4+sub5)/5;
-    cout<<"your percenatge is ="<<percentage<<endl;
+    cout<<"your percenatge is :-"<<percentage<<endl;
 
     return 0;
 }
