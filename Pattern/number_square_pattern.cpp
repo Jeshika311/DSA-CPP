@@ -2,10 +2,12 @@
 using namespace std;
 int main(){
      
-int n= 4;
+int n;
+cout<<"Enter the number of rows : ";
+cin>>n;
 
 for(int i=1;n>=i;i++){
-    for(int j=1;n>=j;j++){
+    for(int j=1;j<=n;j++){
         cout<<j<<" ";
     }
     cout<<endl;
