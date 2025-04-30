@@ -11,7 +11,7 @@ int main(){
             cout<<" ";
         }
         for(int k=1;k<=i;k++){
-            if(k==1 || k==i || i==4){
+            if(k==1 || k==i || i==n){
                 cout<<"* ";
             }
             else{
@@ -21,4 +21,4 @@ int main(){
         cout<<endl;
     }
     return 0;
-}
+} 
