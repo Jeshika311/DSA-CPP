@@ -25,6 +25,7 @@ int main()
 
     int n = arr.size();
 
-    cout << "Second largest element : " << arr[n - 2];
+    cout << "Second largest element is : ";
+    cout << arr[n - 2];
     return 0;
 }
